@@ -8,7 +8,14 @@ Subject = [
     "Deepika Padukone",
     "narendra Modi",
     "Rahul Gandhi",
-    "Sonia Gandhi"
+    "Sonia Gandhi",
+    "Vishal",
+    "Dev",
+    "Karita❤️",
+    "Abhay",
+    "Sanskar",
+    "YuvRaj"
+
 ]
 
 Action = [
@@ -21,7 +28,12 @@ Action = [
     "joins a new political party",
     "reiding on a tiger",
     "adopts a child",
-    "Decleres war on "
+    "Decleres war on"
+    "Marry With Boy",
+    "Bunk",
+    "Sleep",
+    "Join Air Hostress",
+    "Defeated"
 
 ]
 
@@ -35,7 +47,11 @@ Object_place = [
     "during a press conference",
     "in a secret meeting",
     "while attending a wedding",
-    "at a sports event"
+    "at a sports event",
+    "in Class",
+    "With Girl",
+    "at Street",
+    "on The Bed"
 ]
 def generate_headline():    
     return random.choice(Subject) + " " + random.choice(Action) + " " + random.choice(Object_place)
